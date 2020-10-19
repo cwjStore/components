@@ -9,7 +9,8 @@
 </template>
 
 <script>
-export default {
+import Vue from 'vue'
+export default Vue.extend({
   name:'wjToast',
   data() {
     return {
@@ -23,5 +24,5 @@ export default {
       this.showTip = false;
     }, 1500);
   },
-};
+})
 </script>

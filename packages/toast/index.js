@@ -1,7 +1,4 @@
-import Vue from 'vue'
-import index from './src/index.vue'
-
-let Toast = Vue.extend(index)
+import Toast from './src/index.vue'
 
 let instance
 

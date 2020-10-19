@@ -8,12 +8,9 @@
 </template>
 
 <script>
-import MyMsg from "../packages/alert/src/main";
+
 export default {
   name: "App",
-  mounted() {
-    console.log("MyMsg", typeof MyMsg);
-  },
   methods: {
     click() {
       this.$wjToast({ msg: "cheng" });

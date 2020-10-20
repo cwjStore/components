@@ -2,16 +2,17 @@
   "name": "@wj.cao/components",
   "version": "0.1.6",
   "private": false,
-  "main":"lib/components.umd.min.js",
+  "main": "lib/components.umd.min.js",
   "author": "cwj",
   "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib":"vue-cli-service build --target lib --name components --dest lib packages/index.js"
+    "lib": "vue-cli-service build --target lib --name components --dest lib packages/index.js"
   },
   "dependencies": {
+    "@wj.cao/tag-textarea": "^0.1.1",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
